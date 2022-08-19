@@ -1,0 +1,71 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif; /*toda la pagina utilizará esta tipografía*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondoIngreso{
+    background-color: rgb(236, 235, 236);
+}
+
+.fondoApp{
+    background-image: url(.//imagenes/1.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.container1{
+    display: flex;
+    justify-content:right;
+    margin-right: 30%;
+    align-items: center;
+    height: 50vh;
+    
+    position: relative;
+    z-index: 1;
+}
+
+.cardChalecos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 2%;
+    
+}
+.cardCalleras{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.cardMunequeras{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.cardCinturones{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.cardRemeras{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.sesionIndex{/*boton de inicio sesion, o reservar turnos*/
+    margin-left: 15%;
+    background-color: rgb(224, 228, 18);
+
+}
+
+.formu{
+   margin-left: 50%;
+   margin-top: 10%;
+}
